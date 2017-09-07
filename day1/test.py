@@ -17,3 +17,10 @@ print(5%2)
 print(5**2)
 print(5//2)
 print("test"+"2")
+student_names=['shekar1','gadamoni1','shekar2','gadamoni2','shekar3','gadamoni3','shekar4','gadamoni4','shekar','gadamoni']
+for name in student_names:
+   if name=="shekar2":
+    print(name)
+    break
+   print("testing "+name)
+
